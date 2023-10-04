@@ -28,7 +28,7 @@
                     </div>
                     <!-- Login Form -->
                     
-                        <button type="submit" class="btn btn-primary button">Login</button>
+                        <button type="submit" onclick="location.href='{{ url('login')}}'" class="btn btn-primary button">Login</button>
                         <button type="submit" class="btn btn-primary button">Register</button>
 
 
